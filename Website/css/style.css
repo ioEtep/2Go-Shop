@@ -1,0 +1,26 @@
+body{
+  background-color: #EEe;
+}
+#content{
+  width: 800px;
+  background-color: white;
+}
+#header{
+  text-align: center;
+}
+#nav{
+  background-color: black;
+  width: 800px;
+  position: absolute;
+  top: 0px;
+  margin-left: 200px;
+  margin-right: auto;
+  text-align: justify;
+}
+.navBtn{
+  text-align: center;
+  background-color: transparent;
+  color:white;
+  border: 0px;
+  font-kerning: normal;
+}
