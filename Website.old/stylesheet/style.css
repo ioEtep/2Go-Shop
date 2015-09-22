@@ -1,0 +1,22 @@
+body
+{
+    font-family: HannotateSC-W5;
+
+    border: orange 5px dotted;
+}
+#menubar_main
+{
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+
+    opacity: .74;
+    background: #545151;
+}
+
+#header_img
+{
+    width: 100%;
+    height: 700px;
+}
