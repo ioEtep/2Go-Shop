@@ -1,22 +1,112 @@
-body
-{
-    font-family: HannotateSC-W5;
 
-    border: orange 5px dotted;
+
+/*body
+{
+  font-family: HannotateSC-W5;
 }
 #menubar_main
 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
     width: 100%;
     height: 70px;
     margin: 0;
     padding: 0;
 
-    opacity: .74;
+    opacity: .9;
     background: #545151;
+}
+
+.menubar ul
+{
+    margin: 0;
+
+    list-style: none;
+
+    color: white
+
+
+    text-decoration: none;
+}
+
+.menubar a
+{
+    text-decoration: none;
+
+    color: white;
+}
+
+.menubar li
+{
+    font-family: LucidaGrande;
+    font-size: 14.22px;
+    line-height: 17px;
+
+    display: inline;
+
+    color: #fff;
+    color: white
+    text-decoration: none;
+}
+
+.menubar ul,
+li,
+a
+{
+    padding: 1.5px 25px;
+}
+
+.menubar_a
+{
+    position: relative;
+    top: -20px;
 }
 
 #header_img
 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
     width: 100%;
     height: 700px;
+}
+
+#logo_img
+{
+    position: relative;
+    z-index: 1;
+}
+
+#loja_img
+{
+    position: relative;
+    z-index: ;
+    right: 20px;
+}
+
+main
+{
+    position: relative;
+    top: 700px;
+    text-align: center;
+
+  font-family: HannotateSC-W5;
+  font-size: 20px;
+  color: rgba(0,0,0,0.65);
+  line-height: 50px;
+}
+
+h2{
+
+}*/
+
+#menubar_main
+{
+    /* MainMenu: */
+    opacity: .9;
+    background: #545151;
 }
