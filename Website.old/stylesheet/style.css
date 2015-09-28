@@ -1,8 +1,16 @@
 
 
-/*body
+body
 {
   font-family: HannotateSC-W5;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+main{
+  padding: 0;
+  margin: 0;
 }
 #menubar_main
 {
@@ -93,16 +101,8 @@ main
     position: relative;
     top: 700px;
     text-align: center;
-
-  font-family: HannotateSC-W5;
-  font-size: 20px;
-  color: rgba(0,0,0,0.65);
-  line-height: 50px;
 }
 
-h2{
-
-}*/
 
 #menubar_main
 {
@@ -110,3 +110,254 @@ h2{
     opacity: .9;
     background: #545151;
 }
+/*-----------Main------------*/
+#simpleBar{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.MainContent h1{
+  /* Porque Participar?: */
+ font-family: HannotateSC-W5;
+ font-size: 36px;
+ color: rgba(0,0,0,0.65);
+ line-height: 50px;
+}
+
+.Content_Destaque {
+  /*local div*/
+  position:relative;
+  top:50%;
+  width: 836px;
+  height: 291px;
+
+  padding: 20px;
+}
+  .Content_Destaque p{
+  /*texto div local*/
+  position:relative;
+  top:10%;
+  left:50%;
+  float: left;
+  max-width: 370px;
+  text-align: left;
+  font-family: HannotateSC-W5;
+  font-size: 17px;
+  color: #000000;
+  line-height: 17px;
+  }
+
+  .Content_Destaque h2{
+  /*titulo div local*/
+  position:relative;
+  left:14%;
+  top:4%;
+  color:black;
+  font-family: HannotateSC-W5;
+  font-size: 25.52px;
+  color: #000000;
+  line-height: 36px;
+  }
+
+  #Desc_Icon{
+  /*icone local*/
+  position:absolute;
+  top:15%;
+  }
+
+  #Desc_Main_Image{
+  /*Imagem local*/
+  position: absolute;
+  margin:0;
+  padding: 0;
+  left:0;
+  top:40px;
+ width:405px;
+ height:260px;
+  }
+
+.Content_Velocidade{
+
+  position:relative;
+  top:50%;
+  width: 836px;
+  left:26%;
+  height: 291px;
+  padding: 20px;
+}
+  .Content_Velocidade p{
+    /*texto div Velocidade*/
+    position:relative;
+    top:15%;
+    left:8%;
+    float: left;
+    max-width: 370px;
+    text-align: left;
+    font-family: HannotateSC-W5;
+    font-size: 17px;
+    color: #000000;
+    line-height: 17px;
+  }
+
+  #Vel_Main_Image{
+  /*Imagem Velocidade*/
+  position: absolute;
+  margin:0;
+  padding: 0;
+  left:55%;
+  top:40px;
+  width: 350px;
+  }
+
+  #Vel_Icon{
+  /*icone Velocidade*/
+  position:absolute;
+  top:20%;
+  left:5%;
+  }
+
+  .Content_Velocidade h2{
+  /*titulo div local*/
+  position:relative;
+  left:-18%;
+  top:10%;
+  color:black;
+  font-family: HannotateSC-W5;
+  font-size: 25.52px;
+  color: #000000;
+  line-height: 36px;
+  }
+
+.Content_Local {
+    /*local div*/
+    position:relative;
+    top:20px;
+    left: -10px;
+    width: 836px;
+    height: 291px;
+    padding: 20px;
+}
+    .Content_Local p{
+    /*texto div local*/
+    position:relative;
+    top:10%;
+    left:50%;
+    float: left;
+    max-width: 370px;
+    text-align: left;
+    font-family: HannotateSC-W5;
+    font-size: 17px;
+    color: #000000;
+    line-height: 17px;
+    }
+
+    .Content_Local h2{
+    /*titulo div local*/
+    position:relative;
+    left:27%;
+    top:10%;
+    color:black;
+    font-family: HannotateSC-W5;
+    font-size: 25.52px;
+    color: #000000;
+    line-height: 36px;
+    }
+
+    #local_Icon{
+    /*icone local*/
+    position:absolute;
+    top:15%;
+    height: 60px;
+    }
+
+    #local_Main_Image{
+    /*Imagem destaque*/
+    position: absolute;
+    margin:0;
+    padding: 0;
+    left:0;
+    top:40px;
+   width:405px;
+   height:260px;
+    }
+
+.Content_org{
+      position:relative;
+      top:50%;
+      width: 836px;
+      left:26%;
+      height: 291px;
+      padding: 20px;
+}
+      .Content_org p{
+        /*texto div Velocidade*/
+        position:relative;
+        top:5%;
+        left:7%;
+        float: left;
+        max-width: 370px;
+        text-align: left;
+        font-family: HannotateSC-W5;
+        font-size: 17px;
+        color: #000000;
+        line-height: 17px;
+      }
+
+      #org_Main_Image{
+      /*Imagem Velocidade*/
+      position: absolute;
+      margin:0;
+      padding: 0;
+      left:52%;
+      top:40px;
+      height:250px;
+      z-index: 0;
+      }
+
+      #org_Icon{
+      /*icone Velocidade*/
+      position:absolute;
+      height: 60px;
+      top:18%;
+      left:5%;
+      }
+
+      .Content_org h2{
+      /*titulo div local*/
+      position:relative;
+      left:-12%;
+      top:10%;
+      color:black;
+      font-family: HannotateSC-W5;
+      font-size: 25.52px;
+      color: #000000;
+      line-height: 36px;
+
+      z-index: 1;
+      }
+
+
+/*------------Footer--------------*/
+
+.fotter{
+  position: relative;
+  margin: 20
+  height:200px;
+  width:100%;
+  background: #665D5D;
+  border: 1px solid #979797;
+  font-family: HannotateSC-W5;
+  font-size: 18.41px;
+  color: rgba(255,255,255,0.65);
+}
+  .fotter_mail{
+    font-family: HannotateSC-W5;
+    font-size: 18.41px;
+    color: rgba(255,255,255,0.65);
+  line-height: 26px;
+  }
+
+  #fotter_ioetep{
+    color:white;
+  }
