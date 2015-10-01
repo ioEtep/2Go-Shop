@@ -2,7 +2,8 @@
 
 body
 {
-  font-family: HannotateSC-W5;
+  font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
+
 }
 a{
   text-decoration: none;
@@ -360,4 +361,32 @@ main
 
   #fotter_ioetep{
     color:white;
+
+
   }
+
+
+
+/*+++++++++++++++++LOGIN++++++++++++++++++++/*/
+
+.frmLogin
+{
+  position: absolute;
+  top:30%;
+  left:40%;
+  font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
+  font-size: 36px;
+  background-image: url(../images/logform.png);
+}
+.frmLogin label{
+  text-align: center;
+  color: #F6F6F6;
+  position:absolute;
+  left:27%;
+  top:-20%;
+}
+.frmLogin input{
+  width:200px;
+  height:25px;
+  font-size: 18px;
+}

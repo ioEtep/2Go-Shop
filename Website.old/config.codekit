@@ -5,7 +5,7 @@
 	"\/cadastro.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/cadastro.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -14,7 +14,7 @@
 	"\/contato.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/contato.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -23,7 +23,7 @@
 	"\/entrar.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/entrar.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -36,6 +36,17 @@
 		"initialSize": 33808,
 		"inputAbbreviatedPath": "\/images\/atConstruction.png",
 		"outputAbbreviatedPath": "\/images\/atConstruction.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/demopadaria_blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.60443e+06,
+		"inputAbbreviatedPath": "\/images\/demopadaria_blur.png",
+		"outputAbbreviatedPath": "\/images\/demopadaria_blur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -95,35 +106,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/Linesimple.png": {
+	"\/images\/linesimple.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 123,
-		"inputAbbreviatedPath": "\/images\/Linesimple.png",
-		"outputAbbreviatedPath": "\/images\/Linesimple.png",
+		"inputAbbreviatedPath": "\/images\/linesimple.png",
+		"outputAbbreviatedPath": "\/images\/linesimple.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/Linesimple_line.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 123,
-		"inputAbbreviatedPath": "\/images\/Linesimple_line.png",
-		"outputAbbreviatedPath": "\/images\/Linesimple_line.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/local_logo.png": {
+	"\/images\/local_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6971,
-		"inputAbbreviatedPath": "\/images\/local_logo.png",
-		"outputAbbreviatedPath": "\/images\/local_logo.png",
+		"inputAbbreviatedPath": "\/images\/local_icon.png",
+		"outputAbbreviatedPath": "\/images\/local_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/local_image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 699320,
+		"inputAbbreviatedPath": "\/images\/local_image.png",
+		"outputAbbreviatedPath": "\/images\/local_image.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -161,17 +172,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/maplocal_image.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 699320,
-		"inputAbbreviatedPath": "\/images\/maplocal_image.png",
-		"outputAbbreviatedPath": "\/images\/maplocal_image.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/org_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -183,13 +183,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/organizacao-rotinaorg_image.png": {
+	"\/images\/org_image.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 117267,
-		"inputAbbreviatedPath": "\/images\/organizacao-rotinaorg_image.png",
-		"outputAbbreviatedPath": "\/images\/organizacao-rotinaorg_image.png",
+		"inputAbbreviatedPath": "\/images\/org_image.png",
+		"outputAbbreviatedPath": "\/images\/org_image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/padaria_demo_blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.50299e+06,
+		"inputAbbreviatedPath": "\/images\/padaria_demo_blur.png",
+		"outputAbbreviatedPath": "\/images\/padaria_demo_blur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -223,6 +234,17 @@
 		"initialSize": 564156,
 		"inputAbbreviatedPath": "\/images\/PadariaDemo3.jpg",
 		"outputAbbreviatedPath": "\/images\/PadariaDemo3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/PadariaDemoblur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.09598e+06,
+		"inputAbbreviatedPath": "\/images\/PadariaDemoblur.png",
+		"outputAbbreviatedPath": "\/images\/PadariaDemoblur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -274,7 +296,7 @@
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -283,7 +305,7 @@
 	"\/join.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/join.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -292,7 +314,7 @@
 	"\/loja.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/loja.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -301,7 +323,7 @@
 	"\/sobre.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/sobre.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
@@ -334,7 +356,7 @@
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
-	"browserRefreshDelay": 0,
+	"browserRefreshDelay": 0.25,
 	"coffeeAutoOutputPathEnabled": 1,
 	"coffeeAutoOutputPathFilenamePattern": "*.js",
 	"coffeeAutoOutputPathRelativePath": "",
