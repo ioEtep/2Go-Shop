@@ -125,7 +125,7 @@ main
  color: rgba(0,0,0,0.65);
  line-height: 50px;
 }
-
+/*-----------------Destaque------------------*/
 .Content_Destaque {
   /*local div*/
   position:relative;
@@ -177,7 +177,7 @@ main
  width:405px;
  height:260px;
   }
-
+/*---------------Velocidade----------------------*/
 .Content_Velocidade{
 
   position:relative;
@@ -229,7 +229,7 @@ main
   color: #000000;
   line-height: 36px;
   }
-
+/*------------Local-------------*/
 .Content_Local {
     /*local div*/
     position:relative;
@@ -282,7 +282,7 @@ main
    width:405px;
    height:260px;
     }
-
+/*----------------Organização----------------*/
 .Content_org{
       position:relative;
       top:50%;
@@ -310,7 +310,7 @@ main
       position: absolute;
       margin:0;
       padding: 0;
-      left:52%;
+      left:53.5%;
       top:40px;
       height:250px;
       z-index: 0;
@@ -366,27 +366,55 @@ main
   }
 
 
-
 /*+++++++++++++++++LOGIN++++++++++++++++++++/*/
 
 .frmLogin
 {
   position: absolute;
-  top:30%;
-  left:40%;
+  top:23.5%;
+  left:41.5%;
   font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
   font-size: 36px;
-  background-image: url(../images/logform.png);
 }
 .frmLogin label{
   text-align: center;
   color: #F6F6F6;
   position:absolute;
-  left:27%;
-  top:-20%;
+  top:-30px;
+  left:50px;
 }
 .frmLogin input{
-  width:200px;
-  height:25px;
+  width:300px;
+  height:35px;
   font-size: 18px;
+}
+
+#inputlogin{
+  position:absolute;
+  left:-47px;
+  top:60px;
+}
+
+#inputPassword{
+  position:absolute;
+  left:-47px;
+  top:150px;
+}
+
+#btnlogin{
+  font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
+  font-size: 24px;
+  position: absolute;
+  top:290px;
+  height: 50px;
+  width: 200px;
+}
+
+#btncadastro{
+  font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
+  font-size: 24px;
+  position: absolute;
+  top:370px;
+  height: 50px;
+  width: 200px;
 }

@@ -139,6 +139,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/logform.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8417,
+		"inputAbbreviatedPath": "\/images\/logform.png",
+		"outputAbbreviatedPath": "\/images\/logform.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/Main.png": {
 		"fileType": 32768,
 		"ignore": 0,
