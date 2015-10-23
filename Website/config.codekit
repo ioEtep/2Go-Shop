@@ -2,33 +2,145 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18268",
 "files": {
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/images\/find.png": {
+	"\/images\/atConstruction.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28659,
-		"inputAbbreviatedPath": "\/images\/find.png",
-		"outputAbbreviatedPath": "\/images\/find.png",
+		"initialSize": 33808,
+		"inputAbbreviatedPath": "\/images\/atConstruction.png",
+		"outputAbbreviatedPath": "\/images\/atConstruction.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/like.png": {
+	"\/images\/cadastro_bkg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1812,
-		"inputAbbreviatedPath": "\/images\/like.png",
-		"outputAbbreviatedPath": "\/images\/like.png",
+		"initialSize": 768329,
+		"inputAbbreviatedPath": "\/images\/cadastro_bkg.png",
+		"outputAbbreviatedPath": "\/images\/cadastro_bkg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/demopadaria_blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.60443e+06,
+		"inputAbbreviatedPath": "\/images\/demopadaria_blur.png",
+		"outputAbbreviatedPath": "\/images\/demopadaria_blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/destaque_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4301,
+		"inputAbbreviatedPath": "\/images\/destaque_icon.png",
+		"outputAbbreviatedPath": "\/images\/destaque_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/destaque_image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284728,
+		"inputAbbreviatedPath": "\/images\/destaque_image.png",
+		"outputAbbreviatedPath": "\/images\/destaque_image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/facebook_link.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2596,
+		"inputAbbreviatedPath": "\/images\/facebook_link.png",
+		"outputAbbreviatedPath": "\/images\/facebook_link.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/googlePlus_link.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5150,
+		"inputAbbreviatedPath": "\/images\/googlePlus_link.png",
+		"outputAbbreviatedPath": "\/images\/googlePlus_link.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/instagram_link.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8883,
+		"inputAbbreviatedPath": "\/images\/instagram_link.png",
+		"outputAbbreviatedPath": "\/images\/instagram_link.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/linesimple.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123,
+		"inputAbbreviatedPath": "\/images\/linesimple.png",
+		"outputAbbreviatedPath": "\/images\/linesimple.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/local_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6971,
+		"inputAbbreviatedPath": "\/images\/local_icon.png",
+		"outputAbbreviatedPath": "\/images\/local_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/local_image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 699320,
+		"inputAbbreviatedPath": "\/images\/local_image.png",
+		"outputAbbreviatedPath": "\/images\/local_image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logform.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8417,
+		"inputAbbreviatedPath": "\/images\/logform.png",
+		"outputAbbreviatedPath": "\/images\/logform.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/login_bkg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 758552,
+		"inputAbbreviatedPath": "\/images\/login_bkg.png",
+		"outputAbbreviatedPath": "\/images\/login_bkg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -66,6 +178,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/org_icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15051,
+		"inputAbbreviatedPath": "\/images\/org_icon.png",
+		"outputAbbreviatedPath": "\/images\/org_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/org_image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117267,
+		"inputAbbreviatedPath": "\/images\/org_image.png",
+		"outputAbbreviatedPath": "\/images\/org_image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/padaria_demo_blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.50299e+06,
+		"inputAbbreviatedPath": "\/images\/padaria_demo_blur.png",
+		"outputAbbreviatedPath": "\/images\/padaria_demo_blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/PadariaDemo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -99,6 +244,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/PadariaDemoblur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.09598e+06,
+		"inputAbbreviatedPath": "\/images\/PadariaDemoblur.png",
+		"outputAbbreviatedPath": "\/images\/PadariaDemoblur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/Search.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -114,20 +270,31 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4837,
+		"initialSize": 1567,
 		"inputAbbreviatedPath": "\/images\/Shop.png",
 		"outputAbbreviatedPath": "\/images\/Shop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/trophy.png": {
+	"\/images\/velocidade_icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 98297,
-		"inputAbbreviatedPath": "\/images\/trophy.png",
-		"outputAbbreviatedPath": "\/images\/trophy.png",
+		"initialSize": 3460,
+		"inputAbbreviatedPath": "\/images\/velocidade_icon.png",
+		"outputAbbreviatedPath": "\/images\/velocidade_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/velocidade_image.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194619,
+		"inputAbbreviatedPath": "\/images\/velocidade_image.png",
+		"outputAbbreviatedPath": "\/images\/velocidade_image.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -151,7 +318,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Website",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "globe_darkGray"
+	"iconImageName": "harddrive_orange"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

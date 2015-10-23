@@ -22,7 +22,7 @@
                 <img src="images/Main.png" alt="Home" width="60px" height="60px">
               </a>
             </li>
-            <li><a class="menubar_a" href="entrar.html">Entrar</a></li>
+            <li><a class="menubar_a" href="Entrar.aspx">Entrar</a></li>
             <li><a class="menubar_a" href="Cadastro.aspx">Cadastre-se</a></li>
             <li><a class="menubar_a" href="sobre.html">Quem Somos</a></li>
             <li><a class="menubar_a" href="contato.html">Contato</a></li>
