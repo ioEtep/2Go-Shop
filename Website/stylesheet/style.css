@@ -5,175 +5,39 @@
 body{
   font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
 }
-/*-------- AWESOME MENUBAR  -------------*/
-@import url(http://fonts.googleapis.com/css?family=Oswald);
-#MainIcon{
-  position: absolute;
-  left:0px;
-  top:-2px;
+/*------------MenuBar-------------*/
+.menubar{
+  width:100%;
+  background-color: rgb(55, 53, 53);
 }
 
-
-#menubar,
-#menubar ul,
-#menubar ul li,
-#menubar ul li a,
-#menubar #menu-button {
-  margin: 0;
-  padding: 0;
-  border: 0;
+.menubar>ul{
   list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-#menubar:after,
-#menubar > ul:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-#menubar #menu-button {
-  display: none;
-}
-#menubar {
-  margin-bottom: 20px;
-  width: auto;
-  border: 3px solid #fd8a17;
-  border-radius: 3px;
-  font-family: 'Oswald', sans-serif;
-  line-height: 1;
-  background: #f7f7f7;
-  box-shadow: 1px 1px 0 #df7002, 2px 2px 0 #df7002, 3px 3px 3px rgba(0, 0, 0, 0.35);
-}
-#menubar > ul {
-  background: url('images/bg.png');
-}
-#menubar > ul > li {
-  float: left;
-}
-#menubar.align-center > ul {
-  font-size: 0;
-  text-align: center;
-}
-#menubar.align-center > ul > li {
-  display: inline-block;
-  float: none;
-}
-#menubar.align-right > ul > li {
-  float: right;
-}
-#menubar > ul > li > a {
-  padding: 20px 25px;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fd8a17;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  transition: all .2s ease;
-}
-#menubar > ul > li > a:hover,
-#menubar > ul > li:hover > a,
-#menubar > ul > li.active > a {
-  color: #444444;
-}
-#menubar #menu-indicator {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  height: 0;
-  width: 0;
-  border: 5px solid transparent;
-  border-bottom-color: #fd8a17;
-  -webkit-transition: all 0.25s ease-out;
-  -moz-transition: all 0.25s ease-out;
-  -ms-transition: all 0.25s ease-out;
-  -o-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
-}
-#menubar.small-screen {
-  width: 100%;
-}
-#menubar.small-screen > ul,
-#menubar.small-screen.align-center > ul {
-  width: 100%;
-  text-align: left;
-}
-#menubar.small-screen > ul > li,
-#menubar.small-screen.align-center > ul > li {
-  float: none;
-  display: block;
-  border-top: 1px solid rgba(100, 100, 100, 0.1);
-}
-#menubar.small-screen > ul > li > a {
-  padding: 18px 25px;
-}
-#menubar.small-screen > ul > li:after,
-#menubar.small-screen > ul > li:before {
-  display: none;
-}
-#menubar.small-screen #menu-button {
-  display: block;
-  padding: 18px 25px;
-  cursor: pointer;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fd8a17;
-  background: url('images/bg.png');
-}
-#menubar.small-screen #menu-button.menu-opened {
-  color: #444444;
-}
-#menubar.small-screen #menu-button:after {
-  content: "";
-  position: absolute;
-  right: 25px;
-  top: 19.5px;
-  display: block;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  border-top: 2px solid #fd8a17;
-  border-bottom: 2px solid #fd8a17;
-  width: 18px;
-  height: 3px;
-}
-#menubar.small-screen #menu-button.menu-opened:after {
-  border-top: 2px solid #444444;
-  border-bottom: 2px solid #444444;
-}
-#menubar.small-screen #menu-button:before {
-  content: "";
-  position: absolute;
-  right: 25px;
-  top: 29.5px;
-  display: block;
-  width: 18px;
-  height: 2px;
-  background: #fd8a17;
-}
-#menubar.small-screen #menu-button.menu-opened:before {
-  background: #444444;
-}
-#menubar.small-screen #menu-indicator {
-  display: none;
 }
 
-#MainIcon.small-screen{
-  visibility: hidden;
+.menubar>ul>li{
+  display:inline;
 }
 
-/*---------- End of the AWESOME MENUBAR --------------*/
+.menubar a{
+  position:relative;
+  top:-20px;
+  text-decoration: none;
+  color:#FFFFFF;
+  margin:4%;
+  margin-top: -10px;
+}
+
+#MainIcon{
+  position:relative;
+  top:20px;
+  left:-1%;
+}
+
+.menubar a:hover{
+  color: rgb(174,129,76);
+}
+/*----------HEADER-------------*/
 
 .headerImg img{
   width: 100%;
@@ -191,3 +55,227 @@ body{
 }
 
 /*------------------Content-----------------------*/
+/*-----------------Destaque------------------*/
+.Content_Destaque {
+  /*local div*/
+  position:relative;
+  top:50%;
+  width: 80x;
+  height: 291px;
+
+  padding: 20px;
+}
+  .Content_Destaque p{
+  /*texto div local*/
+  position:relative;
+  top:10%;
+  left:50%;
+  float: left;
+  max-width: 370px;
+  text-align: left;
+  font-family: HannotateSC-W5;
+  font-size: 17px;
+  color: #000000;
+  line-height: 17px;
+  }
+
+  .Content_Destaque h2{
+  /*titulo div local*/
+  position:relative;
+  left:55%;
+  top:15%%;
+  color:black;
+  font-family: HannotateSC-W5;
+  font-size: 25.52px;
+  color: #000000;
+  line-height: 36px;
+  }
+
+  #Desc_Icon{
+  /*icone local*/
+  position:absolute;
+  top:20%;
+  left:48%;
+  z-index: 1;
+  }
+
+  #Desc_Main_Image{
+  /*Imagem local*/
+  position: absolute;
+  margin:0;
+  padding: 0;
+  left:0;
+  top:40px;
+ width:405px;
+ height:260px;
+  }
+/*---------------Velocidade----------------------*/
+.Content_Velocidade{
+
+  position:relative;
+  top:50%;
+  width: 80%;
+
+  margin-top:100px;
+
+  left:26%;
+  height: 291px;
+  padding: 20px;
+}
+  .Content_Velocidade p{
+    /*texto div Velocidade*/
+    position:relative;
+    top:0%;
+    left:10%;
+    float: left;
+    max-width: 370px;
+    text-align: left;
+    font-family: HannotateSC-W5;
+    font-size: 17px;
+    color: #000000;
+    line-height: 17px;
+  }
+
+  #Vel_Main_Image{
+  /*Imagem Velocidade*/
+  width:300px;
+  heigh:300px;
+
+    margin-left: -300px;
+    margin-top: -150px;
+
+    position:absolute;
+    top:50%;
+    left:90%;
+  }
+
+  #Vel_Icon{
+  /*icone Velocidade*/
+  position:absolute;
+  top:10%;
+  left:5%;
+  }
+
+  .Content_Velocidade h2{
+  /*titulo div local*/
+  position:relative;
+  left:10%;
+  top:0%;
+  color:black;
+  font-family: HannotateSC-W5;
+  font-size: 25.52px;
+  color: #000000;
+  line-height: 36px;
+  }
+/*------------Local-------------*/
+.Content_Local {
+    /*local div*/
+
+    width:80%;
+    height: 291px;
+    padding: 20px;
+}
+    .Content_Local p{
+    /*texto div local*/
+    position:relative;
+    top:35%;
+    left:50%;
+    float: left;
+    max-width: 370px;
+    text-align: left;
+    font-family: HannotateSC-W5;
+    font-size: 17px;
+    color: #000000;
+    line-height: 17px;
+    }
+
+    .Content_Local h2{
+    /*titulo div local*/
+    position:relative;
+    float:right;
+    left:-10%;
+    top:10%;
+    color:black;
+    font-family: HannotateSC-W5;
+    font-size: 25.52px;
+    color: #000000;
+    line-height: 36px;
+    }
+
+    #local_Icon{
+    /*icone local*/
+    position:relative;
+    top:10%;
+    left:1.5%;
+    height: 60px;
+    }
+
+    #local_Main_Image{
+    /*Imagem destaque*/
+    position: absolute;
+    width:400px;
+    height:250px;
+
+      margin-left: -450px;
+      margin-top: 40px;
+    }
+/*----------------Organização----------------*/
+.Content_org{
+      position:relative;
+      top:50%;
+      width: 836px;
+      left:26%;
+      height: 291px;
+      padding: 20px;
+}
+      .Content_org p{
+        /*texto div Velocidade*/
+        position:relative;
+        top:5%;
+        left:7%;
+        float: left;
+        max-width: 370px;
+        text-align: left;
+        font-family: HannotateSC-W5;
+        font-size: 17px;
+        color: #000000;
+        line-height: 17px;
+      }
+
+      #org_Main_Image{
+      /*Imagem Velocidade*/
+      padding: 0;
+      top:40px;
+      height:250px;
+      z-index: 0;
+      }
+
+      #org_Icon{
+      /*icone Velocidade*/
+      position:absolute;
+      height: 60px;
+      top:18%;
+      left:5%;
+      }
+
+      .Content_org h2{
+      /*titulo div local*/
+      position:relative;
+      left:-12%;
+      top:10%;
+      color:black;
+      font-family: HannotateSC-W5;
+      font-size: 25.52px;
+      color: #000000;
+      line-height: 36px;
+
+      z-index: 1;
+      }
+
+
+/*------------Footer--------------*/
+
+
+
+
+/*+++++++++++++++++LOGIN++++++++++++++++++++/*/
