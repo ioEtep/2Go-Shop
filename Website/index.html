@@ -1,88 +1,100 @@
-<!Doctype Html>
+﻿<!Doctype Html>
 <html lang="pt-br">
-<head>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="stylesheet/style.css"/>
-  <link rel="icon" href="images/Main.png"/>
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
-  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-  <script src="Javascript/script.js"></script>
-  <title>2Go Shop</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A website about Bakeries"/>
+    <meta name="author" content="Caiobep"/>
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <link rel="icon" href="images/Main.png">
+    <title>Project Esondidinho</title>
+  </head>
 
-<body>
-  <div class='menubar'>
-  <ul>
-    <li><a href="index.html">
-      <img id="MainIcon" src="images/Main.png" width="60px" height="60px"/>
-    </a></li>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="Websites/login.aspx">Entrar</a></li>
-     <li><a href="Websites/singin.aspx">Cadastre-se</a></li>
-     <li><a href="Websites/store.aspx">Store</a></li>
-     <li><a href="Websites/about.html">Sobre</a></li>
-  </ul>
-  </div>
+  <body>
+    <div id="menubar_main" class="menubar">
+        <nav>
+          <ul>
+            <li id="logo_img">
+              <a href="index.html">
+                <img src="images/Main.png" alt="Home" width="60px" height="60px">
+              </a>
+            </li>
+            <li><a class="menubar_a" href="webpages/Login/Login.aspx">Entrar</a></li>
+            <li><a class="menubar_a" href="webpages/Cadastro/cadastro.aspx">Cadastre-se</a></li>
+            <li><a class="menubar_a" href="webpages/sobre.html">Quem Somos</a></li>
+            <li><a class="menubar_a" href="webpages/contato.html">Contato</a></li>
+            <li><a class="menubar_a" href="webpages/join.html">Faça Parte</a></li>
+            <li><a id="loja_img" href="webpages/loja.html">
+              <img src="images/Shop.png" alt="Loja" height="60" width="40"/>
+            </a></li>
+          </ul>
+        </nav>
+    </div>
+    <header>
+       <div id="header_div">
+        <img  id="header_img" alt="Project Escondidinho" src="images/PadariaDemo.jpg">
+       </div>
+    </header>
 
-  <div class="headerImg">
-    <img alt="2go Shop" src="images/headerImg.jpg"/>
-  </div>
+   <main class="mainContent">
+     <h1 style="font-family:'Sitka Banner' ">Por que Fazer parte?</h1>
+     <figure id="simpleBar"><img src="images/linesimple.png" width="100%"/></figure>
 
-  <div class="content">
-    <h1>Por que Fazer parte?</h1>
-    <figure id="simpleBar"><img src="images/linesimple.png" width="100%"/></figure>
+      <div class="Content_Destaque">
+        <h2>Destque!</h2>
+        <p>
+          Uma solucao atual e moderna para sua empresa! Com
+          nossos recursos sua empresa nao sera somente reconhecida mas
+           como muito popular entre a maioria das pessoas.
+        </p>
+        <img id="Desc_Icon" src="images/destaque_icon.png"/>
+        <img id="Desc_Main_Image" src="images/destaque_image.png"/>
+      </div>
 
-     <div class="Content_Destaque">
-       <h2>Destque!</h2>
-       <img id="Desc_Icon" src="images/destaque_icon.png"/>
-       <img id="Desc_Main_Image" src="images/destaque_image.png"/>
-       <p>
-         Uma solucao atual e moderna para sua empresa! Com
-         nossos recursos sua empresa nao sera somente reconhecida mas
-          como muito popular entre a maioria das pessoas.
-       </p>
-     </div>
+      <div class="Content_Velocidade">
+        <h2>Mais Velocidade e Agilidade!</h2>
+        <p>
+          Com nossa agil plataforma, sua velocidade e produtividade
+          e elevada ao maximo, fazendo com que as pessoas que estao correria
+          do dia-a-dia preferirem seu pequeno ou grande negocio.
+        </p>
+        <img id="Vel_Icon" src="images/velocidade_icon.png"/>
+        <img id="Vel_Main_Image" src="images/velocidade_image.png"/>
+      </div>
 
-     <div class="Content_Velocidade">
-       <h2>Mais Velocidade e Agilidade!</h2>
-       <img id="Vel_Icon" src="images/velocidade_icon.png"/>
-       <img id="Vel_Main_Image" src="images/velocidade_image.png"/>
-       <p>
-         Com nossa agil plataforma, sua velocidade e produtividade
-         e elevada ao máximo, fazendo com que as pessoas que estão correria
-         do dia-a-dia dêem preferência ao seu negocio seja ele grande ou pequeno!
-       </p>
-     </div>
+      <div class="Content_Local">
+        <h2>Mais perto do que nunca!</h2>
+        <p>
+          Aumente sua clientela, estar em todos os lugares
+          nao e nenhum desafio para nossa incriv?l ferramenta.
+        </p>
+        <img id="local_Icon" src="images/local_icon.png"/>
+        <img id="local_Main_Image" src="images/local_image.png"/>
+      </div>
 
-     <div class="Content_Local">
-       <h2>Mais perto do que nunca!</h2>
-       <img id="local_Icon" src="images/local_icon.png"/>
-       <img id="local_Main_Image" src="images/local_image.png"/>
-       <p>
-         Aumente sua clientela, Distância não é problema
-          nenhum para nossa incrivél ferramenta.
-       </p>
-     </div>
+      <div class="Content_org">
+        <h2>Por um ambiente mais organizado!</h2>
+        <p>
+          Diga adeus a procastinacao e desorganização de sua empresa, nossa
+          ferramenta ficou bem mais facil administrar seu negocio seja ele
+          grande ou pequeno
+        </p>
+        <img id="org_Icon" src="images/org_icon.png"/>
+        <img id="org_Main_Image" src="images/org_image.png"/>
+      </div>
 
-     <div class="Content_org">
-       <h2>Por um ambiente mais organizado!</h2>
-       <img id="org_Icon" src="images/org_icon.png"/>
-       <img id="org_Main_Image" src="images/org_image.png"/>
-       <p>
-         Diga adeus a procastinacao e desorganiza??o de sua empresa, nossa
-         ferramenta ficou bem mais facil administrar seu negocio seja ele
-         grande ou pequeno
-       </p>
-     </div>
-  </div>
+      <h1 id=join_now>
+        <a href="cadastro.html">Entre Nessa Ja!</a>
+      </h1>
 
-  <footer>
-    <p>Email:<a class="fotter_mail" href="mailto: caiobep@me.com">
-      Caiobep@me.com</a></p>
-    <p> Made by:
-      <a id="fotter_ioetep" target="_tab" href ="https://github.com/ioEtep">
-        io.Etep
-      </a></p>
-  </footer>
-</body>
+
+      <div class="fotter">
+        <p class="fotter_mail">Email:<a class="fotter_mail" href="mailto: caiobep@me.com"><span>Caiobep@me.com</span></a></p>
+
+        <p>Made by <a id="fotter_ioetep" target="_tab" href ="https://github.com/ioEtep">io.Etep</a></p>
+      </div>
+   </main>
+
+  </body>
 </html>

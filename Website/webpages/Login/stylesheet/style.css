@@ -372,12 +372,22 @@ main
 
 /*+++++++++++++++++LOGIN++++++++++++++++++++/*/
 
+/*+++++++++++++++++LOGIN++++++++++++++++++++/*/
+
 .frmLogin
 {
-  position: absolute;
-  top:23.5%;
-  left:41.5%;
-  font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
+  width: 400px;
+  height: 400px;
+  
+  margin-top: -200px;
+
+  
+
+  position:absolute;
+  top:350px;
+  left:525px;
+  
+  font-family: 'Segoe UI';
   font-size: 36px;
 }
 .frmLogin label{
@@ -406,7 +416,8 @@ main
 }
 
 #btnlogin{
-  font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
+  font-family: 'Segoe UI';
+  color:#545151;
   font-size: 24px;
   position: absolute;
   top:290px;
@@ -415,7 +426,8 @@ main
 }
 
 #btncadastro{
-  font-family: "San Francisco", "Helvetica Neue", "Lucida Grande";
+  font-family: 'Segoe UI';
+   color:#545151;
   font-size: 24px;
   position: absolute;
   top:370px;
