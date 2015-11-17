@@ -38,10 +38,13 @@
        <p>Primeiro vamos selecionar uma opção:</p>
     </div>
     <div class="fis_jud">
-        <div class="chooseBotoes">
-             <input type="button" id="inputFisica" value="Pessoa Física" onClick="location.href='CadastroFisica/cadFis.aspx'"/>
-             <input type="button" id="inputJuridica" value="Pessoa Jurídica" href="CadastroJuridica/cadjud.aspx"/>
-         </div>
+        <input type="button" id="inputFisica" value="Pessoa Física" onClick="location.href='CadastroFisica/cadFis.aspx'"/>
+        <input type="button" id="inputJuridica" value="Pessoa Jurídica" onClick="location.href='CadastroJuridica/cadjud.aspx'"/>
+    </div>
+
+    <div class="fotter">
+        <p class="fotter_mail">Email:<a class="fotter_mail" href="mailto: caiobep@me.com"><span>Caiobep@me.com</span></a></p>
+        <p>Made by <a id="fotter_ioetep" target="_tab" href ="https://github.com/ioEtep">io.Etep</a></p>
     </div>
 </body>
 </html>

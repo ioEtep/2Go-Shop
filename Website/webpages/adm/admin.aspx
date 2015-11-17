@@ -4,13 +4,21 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css" />
+    <title>Administrador</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div class="Login">
-        <asp:TextBox ID="inputLogin" runat="server"/>
+    <div class="sidebar">
+        
     </div>
-    </form>
+    <div class="headerImage">
+
+    </div>
+    <div class="appBar">
+       <input type="button" id="Clientes"/>
+       <input type="button" id="Funcionarios" />
+       <input type="button" id ="Produtos" />
+       <input type="button" id="Estatisticas" />
+    </div>
 </body>
 </html>

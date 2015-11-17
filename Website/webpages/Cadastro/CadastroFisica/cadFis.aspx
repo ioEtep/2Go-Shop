@@ -52,7 +52,8 @@
                  <asp:TextBox runat="server" MaxLength="30" ID="txtNumero" placeholder="Numero"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtBairro" placeholder="Bairro"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtRua" placeholder="Rua"></asp:TextBox>
-                 <asp:TextBox runat="server" MaxLength="30" ID="txtEmail" placeholder="eMail"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtEmail" placeholder="Email"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtCep" placeholder="Cep"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCpf" placeholder="Cpf"></asp:TextBox>
              </form>
          </div>

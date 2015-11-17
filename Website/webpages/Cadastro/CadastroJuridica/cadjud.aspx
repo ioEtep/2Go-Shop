@@ -38,10 +38,20 @@
        <p>Primeiro vamos selecionar uma opção:</p>
     </div>
     <div class="fis_jud">
-        <div class="chooseBotoes">
-             <input type="button" id="inputFisica" value="Pessoa Física" href="CadastroFisica/cadfis.aspx"/>
-             <input type="button" id="inputJuridica" value="Pessoa Jurídica" href="CadastroJuridica/cadjud.aspx"/>
+        <div class="fis_jud">
+        <div class="formCadastro-Fis">
+             <form class="frmFisica" runat="server">
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtLogin" placeholder="Login"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtSenha" placeholder="Senha"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtNome" placeholder="Nome da Empresa"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtRNome" placeholder="Nome do Representante"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtEmail" placeholder="Email"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="20" ID="txtDataNas" placeholder="Data de Nascimento"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtCidade" placeholder="Cidade"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtCnpj" placeholder="Cnpj"></asp:TextBox>
+             </form>
          </div>
+    </div>
     </div>
 </body>
 </html>

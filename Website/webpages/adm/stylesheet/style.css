@@ -1,1 +1,65 @@
-/*-------ADMIN STYLE MADE BY CAIOBEP------------*/
+/*-------ADMIN STYL MADE BY CAIOBEP------------*/
+body{
+    background-color:#2b4969
+}
+
+.sidebar{
+    width:65px;
+    height:100%;
+
+    position:absolute;
+    left:0;
+    top:0;
+
+    
+    background-color:#274769;
+
+    border-right:1px solid #feffe3;
+    margin-right:50px;
+} 
+
+.headerImage{
+    height:500px;
+    width:1200px;
+    margin:1px;
+    margin-left:65px;
+    background-color:white;
+    
+}
+
+.appBar{
+  
+    border-radius:1%;
+    border:none;
+    margin-top:3px;
+    margin-left:65px;
+}
+
+.appBar input {
+    background-color: limegreen;
+    width:200px;
+    height:200px;
+
+    display:inline-block;
+
+    
+    margin:45px;
+    margin-top:100px;
+
+    border-radius:7%;
+
+    border:none;
+    
+}
+
+.appBar p{
+    position:absolute;
+    color:white;
+    font-family:'Open Sans', sans-serif;
+
+    
+}
+
+.appBar input:focus{
+    outline:none;
+}
