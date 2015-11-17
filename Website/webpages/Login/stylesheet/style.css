@@ -1,0 +1,438 @@
+﻿@charset "UTF-8";
+
+body
+{
+  font-family: 'Lucida Sans Unicode';
+  z-index: 3;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+main{
+  padding: 0;
+  margin: 0;
+}
+#menubar_main
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+
+    opacity: .9;
+    background: #545151;
+}
+
+.menubar ul
+{
+    margin: 0;
+
+    list-style: none;
+
+    color: white
+
+
+    text-decoration: none;
+}
+
+.menubar a
+{
+    text-decoration: none;
+
+    color: white;
+}
+
+.menubar li
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14.22px;
+    line-height: 17px;
+
+    display: inline;
+
+    color: #fff;
+    color: white
+    text-decoration: none;
+}
+
+.menubar ul,
+li,
+a
+{
+    padding: 1.5px 25px;
+}
+
+.menubar_a
+{
+    position: relative;
+    top: -20px;
+}
+
+#header_img
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 700px;
+}
+
+#logo_img
+{
+    position: relative;
+    z-index: 1;
+}
+
+#loja_img
+{
+    position: relative;
+    z-index: ;
+    right: 20px;
+}
+
+main
+{
+    position: relative;
+    top: 700px;
+    text-align: center;
+}
+
+
+#menubar_main
+{
+    /* MainMenu: */
+    opacity: .9;
+    background: #545151;
+}
+/*-----------Main------------*/
+#simpleBar{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.MainContent h1{
+  /* Porque Participar?: */
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: 36px;
+ color: rgba(0,0,0,0.65);
+ line-height: 50px;
+}
+/*-----------------Destaque------------------*/
+.Content_Destaque {
+  /*local div*/
+  position:relative;
+  top:50%;
+  width: 836px;
+  height: 291px;
+
+  padding: 20px;
+}
+  .Content_Destaque p{
+  /*texto div local*/
+  position:relative;
+  top:10%;
+  left:50%;
+  float: left;
+  max-width: 370px;
+  text-align: left;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000000;
+  }
+
+  .Content_Destaque h2{
+  /*titulo div local*/
+  position:relative;
+  left:14%;
+  top:4%;
+  color:black;
+  font-family: 'Segoe Print';
+  font-size: 25.52px;
+  color: #000000;
+  line-height: 36px;
+  }
+
+  #Desc_Icon{
+  /*icone local*/
+  position:absolute;
+  top:15%;
+  }
+
+  #Desc_Main_Image{
+  /*Imagem local*/
+  position: absolute;
+  margin:0;
+  padding: 0;
+  left:0;
+  top:40px;
+ width:405px;
+ height:260px;
+  }
+/*---------------Velocidade----------------------*/
+.Content_Velocidade{
+
+  position:relative;
+  top:50%;
+  width: 836px;
+  left:26%;
+  height: 291px;
+  padding: 20px;
+}
+  .Content_Velocidade p{
+    /*texto div Velocidade*/
+    position:relative;
+    top:15%;
+    left:8%;
+    float: left;
+    max-width: 370px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+  }
+
+  #Vel_Main_Image{
+  /*Imagem Velocidade*/
+  position: absolute;
+  margin:0;
+  padding: 0;
+  left:55%;
+  top:40px;
+  width: 350px;
+  }
+
+  #Vel_Icon{
+  /*icone Velocidade*/
+  position:absolute;
+  top:20%;
+  left:5%;
+  }
+
+  .Content_Velocidade h2{
+  /*titulo div local*/
+  position:relative;
+  left:-18%;
+  top:10%;
+  color:black;
+  font-family: 'Segoe Print';
+  font-size: 25.52px;
+  color: #000000;
+  line-height: 36px;
+  }
+/*------------Local-------------*/
+.Content_Local {
+    /*local div*/
+    position:relative;
+    top:20px;
+    left: -10px;
+    width: 836px;
+    height: 291px;
+    padding: 20px;
+}
+    .Content_Local p{
+    /*texto div local*/
+    position:relative;
+    top:10%;
+    left:50%;
+    float: left;
+    max-width: 370px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    }
+
+    .Content_Local h2{
+    /*titulo div local*/
+    position:relative;
+    left:27%;
+    top:10%;
+    color:black;
+    font-family: 'Segoe Print';
+    font-size: 25.52px;
+    color: #000000;
+    line-height: 36px;
+    }
+
+    #local_Icon{
+    /*icone local*/
+    position:absolute;
+    top:15%;
+    height: 60px;
+    }
+
+    #local_Main_Image{
+    /*Imagem destaque*/
+    position: absolute;
+    margin:0;
+    padding: 0;
+    left:0;
+    top:40px;
+   width:405px;
+   height:260px;
+    }
+/*----------------Organiza��o----------------*/
+.Content_org{
+      position:relative;
+      top:50%;
+      width: 836px;
+      left:26%;
+      height: 291px;
+      padding: 20px;
+}
+      .Content_org p{
+        /*texto div Velocidade*/
+        position:relative;
+        top:5%;
+        left:7%;
+        float: left;
+        max-width: 370px;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #000000;
+
+      }
+
+      #org_Main_Image{
+      /*Imagem Velocidade*/
+      padding: 0;
+      top:40px;
+      height:250px;
+      z-index: 0;
+      }
+
+      #org_Icon{
+      /*icone Velocidade*/
+      position:absolute;
+      height: 60px;
+      top:18%;
+      left:5%;
+      }
+
+      .Content_org h2{
+      /*titulo div local*/
+      position:relative;
+      left:-12%;
+      top:10%;
+      color:black;
+      font-family: 'Segoe Print';
+      font-size: 25.52px;
+      color: #000000;
+      line-height: 36px;
+
+      z-index: 1;
+      }
+
+
+/*------------Footer--------------*/
+
+#join_now{
+    font-family:'Segoe UI Symbol';
+}
+
+.fotter{
+  position: relative;
+  background: #665D5D;
+  border: 1px solid #979797;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18.41px;
+  color: rgba(255,255,255,0.65);
+}
+  .fotter_mail{
+    position:relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18.41px;
+    color: rgba(255,255,255,0.65);
+    line-height: 26px;
+  }
+  
+  span{
+      color:white;
+      position:relative;
+      left:-20px;
+  }
+  span:hover{
+     color:#9a8d8d;
+  }
+
+  #fotter_ioetep{
+      position:relative;
+      left:-25px;
+    color:white;
+  }
+
+  #fotter_ioetep:hover{
+      color:#9a8d8d;
+  }
+
+/*+++++++++++++++++LOGIN++++++++++++++++++++/*/
+
+/*+++++++++++++++++LOGIN++++++++++++++++++++/*/
+
+.frmLogin
+{
+  width: 400px;
+  height: 400px;
+  
+  margin-top: -200px;
+
+  
+
+  position:absolute;
+  top:350px;
+  left:525px;
+  
+  font-family: 'Segoe UI';
+  font-size: 36px;
+}
+.frmLogin label{
+  text-align: center;
+  color: #F6F6F6;
+  position:absolute;
+  top:-30px;
+  left:50px;
+}
+.frmLogin input{
+  width:300px;
+  height:35px;
+  font-size: 18px;
+}
+
+#inputlogin{
+  position:absolute;
+  left:-47px;
+  top:60px;
+}
+
+#inputPassword{
+  position:absolute;
+  left:-47px;
+  top:150px;
+}
+
+#btnlogin{
+  font-family: 'Segoe UI';
+  color:#545151;
+  font-size: 24px;
+  position: absolute;
+  top:290px;
+  height: 50px;
+  width: 200px;
+}
+
+#btncadastro{
+  font-family: 'Segoe UI';
+   color:#545151;
+  font-size: 24px;
+  position: absolute;
+  top:370px;
+  height: 50px;
+  width: 200px;
+}
+
+/*******************TELA CADASTRO*********************/
