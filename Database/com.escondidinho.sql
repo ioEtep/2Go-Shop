@@ -21,13 +21,12 @@ constraint cnpj_emp_uq unique(cnpj_emp)
 create table clientes
 (
 id_cli int not null auto_increment,
-nome_cli varchar(30) not null,
+nome_cli varchar(10) not null,
 nome2_cli varchar(30) not null,
 login_cli varchar(20) not null,
 senha_cli varchar(12) not null,
 end_cli varchar(30) not null,
 num_cli int not null,
-compl_cli varchar(30) not null,
 bairro_cli varchar(30) not null,
 cidade_cli varchar(30) not null,
 uf_cli varchar(30) not null,
@@ -40,7 +39,8 @@ celular_cli varchar(20) not null,
 primary key(id_cli),
 constraint email_cli_uq unique(email_cli),
 constraint cpf_cli_uq unique(cpf_cli),
-constraint sex_cli_chk check(sex_cli ('F','M')),
+constraint login_cli_uq unique(login_cli),
+constraint sex_cli_chk check(sex_cli ('F','M'))
 );
 
 create table Login
