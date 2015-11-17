@@ -37,7 +37,7 @@
        <h1>Cadastro</h1>
        <p>Preencha o formulario:</p>
     </div>
-    <div class="fis_jud">
+    <div class="cadFis">
         <div class="formCadastro-Fis">
              <form class="frmFisica" runat="server">
                  <asp:TextBox runat="server" MaxLength="30" ID="txtLogin" placeholder="Login"></asp:TextBox>

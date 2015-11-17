@@ -425,7 +425,7 @@ main
 
 /**********************MenuBar Genérica********************************/
 .menubar_notMain {
-    position: absolute;
+    position: relative;
     top:0;
     left:0;
     height:60px;
@@ -448,5 +448,178 @@ main
     color:white;
 }
 
-/*============Tela Cadastro Fisica===========================================*/
 
+/*============Tela Cadastro===========================================*/
+.HeaderCadastro h1{
+    font-family:'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:40px;
+    font-variant:normal;
+}
+
+.HeaderCadastro p {
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:18px;
+    font-variant:normal;
+}
+
+
+.fis_jud{
+    height:400px;
+    width:100%;
+    background-color:white;
+
+    border-radius:1%;
+}
+
+.fis_jud input{
+    height:400px;
+    width:49%;
+    margin:3px;
+
+    font-family:'Open Sans' ,sans-serif;
+    font-weight:300;
+    font-size:50px;
+
+    background-color:white;
+    
+    border:solid 4px #25c75f;
+
+    border-radius:1.2%;
+}
+
+.fis_jud input:hover{
+    background-color:#25c75f;
+    color:white; 
+    border:solid 4px white;
+    border-radius:1.2%;
+}
+
+.fis_jud input:active{
+    color:white;
+    background-color:#1fa850;
+    border:solid 4px white;
+    border-radius:1.2%;
+}
+.fis_jud input:focus{
+    outline:none;
+}
+
+
+/*======BIG NEW FOTTER=====================*/
+.fotter{
+    position:relative;
+    top:30px;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#46585c;
+
+    padding:0;
+
+    margin-bottom:-100px;
+}
+
+.fotter p {
+  text-align:center;
+}
+/*=======NO MORE BIG NEW FOTTER============*/
+
+/*==========Tela Cadastro Física===========*/
+.cadFis{
+    margin:45px;
+}
+
+.cadFis input[type=text]{
+    height:40px;
+    width:200px;
+    font-size:20px;
+    font-family:'Open Sans', sans-serif;
+    margin:10px;
+}
+
+.cadFis button{
+    height:80px;
+}
+
+#rdlSexo{
+    font-family:'Open Sans', sans-serif;
+    font-weight:400;
+
+    font-size:20px;
+}
+
+#btnCadastrar{
+    height:60px;
+    width:200px;
+
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+
+    border-radius:5%;
+    background-color: white;
+
+    color:black;
+
+    border: solid 1px #25c75f;
+
+    margin-left:75%
+
+}
+
+#btnCadastrar:hover{
+    height:60px;
+    width:200px;
+
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+
+    border-radius:5%;
+    background-color: #25c75f;
+
+    color:white;
+
+    border: solid 1px white;
+
+}
+
+#btnCadastrar:active{
+    height:60px;
+    width:200px;
+
+    font-family:'Open Sans', sans-serif;
+    font-size:25px;
+
+    border-radius:5%;
+    background-color: #2ba858;
+
+    color:white;
+
+    border: solid 1px white;
+
+}
+
+#btnCadastrar:focus{
+    outline:none;
+}
+
+
+
+/*=========================================*/
+
+.cadJud{
+    margin:45px;
+}
+
+.cadJud input[type=text]{
+    height:40px;
+    width:200px;
+    font-size:20px;
+    font-family:'Open Sans', sans-serif;
+    margin:10px;
+}
+
+.cadJud input[type=button]{
+    background-color:white;
+}
