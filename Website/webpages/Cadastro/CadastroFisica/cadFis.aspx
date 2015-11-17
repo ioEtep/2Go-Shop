@@ -41,19 +41,27 @@
         <div class="formCadastro-Fis">
              <form class="frmFisica" runat="server">
                  <asp:TextBox runat="server" MaxLength="30" ID="txtLogin" placeholder="Login"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtLogin" ErrorMessage="Preencha o Login!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtSenha" placeholder="Senha"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtSenha" ErrorMessage="Preencha sua Senha!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtpNome" placeholder="Primeiro Nome"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtpNome" ErrorMessage="Preencha seu Nome!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtsNome" placeholder="Segundo Nome"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtsNome" ErrorMessage="Preencha seu Sobrenome!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCelular" placeholder="Celular"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="20" ID="txtDataNas" placeholder="Data de Nascimento"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCidade" placeholder="Cidade"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtEstado" placeholder="Estado"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtNumero" placeholder="Numero"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ErrorMessage="Preencha o número de sua residencia!" ControlToValidate="txtNumero"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtBairro" placeholder="Bairro"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtRua" placeholder="Rua"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtEmail" placeholder="Email"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtEmail" ErrorMessage="Preencha seu eMail!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCep" placeholder="Cep"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtCep" ErrorMessage="Preencha o Cep!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCpf" placeholder="Cpf"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtCpf" ErrorMessage="Preencha o Cpf!"></asp:RequiredFieldValidator>
                  <asp:RadioButtonList ID="rdlSexo" runat="server">
                      <asp:ListItem>Masculino</asp:ListItem>
                      <asp:ListItem>Feminino</asp:ListItem>
@@ -78,6 +86,7 @@
                          <asp:ControlParameter ControlID="txtCelular" Name="Celular" PropertyName="Text" />
                      </InsertParameters>
                  </asp:SqlDataSource>
+                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
              </form>
          </div>
     </div>
