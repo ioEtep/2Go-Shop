@@ -6,14 +6,11 @@ create table empresa
 (
 id_emp int not null auto_increment,
 nome_emp varchar(30) not null,
+nomeR_emp varchar(30) not null,
+login_emp varchar(20) not null,
 senha_emp varchar(12) not null,
-end_emp varchar(30) not null,
-num_emp int not null,
-compl_emp varchar(30) not null,
-bairro_emp varchar(30) not null,
 cidade_emp varchar(30) not null,
 uf_emp varchar(30) not null,
-cep_emp varchar(30) not null,
 email_emp varchar(30) not null,
 cnpj_emp varchar(20) not null,
 primary key (id_emp),
@@ -25,6 +22,8 @@ create table clientes
 (
 id_cli int not null auto_increment,
 nome_cli varchar(30) not null,
+nome2_cli varchar(30) not null,
+login_cli varchar(20) not null,
 senha_cli varchar(12) not null,
 end_cli varchar(30) not null,
 num_cli int not null,
@@ -37,12 +36,11 @@ email_cli varchar(30) not null,
 cpf_cli varchar(20) not null,
 dtnasc_cli date not null,
 sex_cli varchar(30) not null,
-estciv_cli char(1) not null,
+celular_cli varchar(20) not null,
 primary key(id_cli),
 constraint email_cli_uq unique(email_cli),
 constraint cpf_cli_uq unique(cpf_cli),
-constraint sex_cli_chk check(sex_cli ('F','M','O')),
-constraint estciv_cli_chk check(estciv_cli ('C','S','O'))
+constraint sex_cli_chk check(sex_cli ('F','M')),
 );
 
 create table Login
