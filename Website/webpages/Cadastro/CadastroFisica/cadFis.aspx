@@ -45,16 +45,39 @@
                  <asp:TextBox runat="server" MaxLength="30" ID="txtpNome" placeholder="Primeiro Nome"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtsNome" placeholder="Segundo Nome"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCelular" placeholder="Celular"></asp:TextBox>
-                     <asp:RadioButtonList
-
                  <asp:TextBox runat="server" MaxLength="20" ID="txtDataNas" placeholder="Data de Nascimento"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCidade" placeholder="Cidade"></asp:TextBox>
+                 <asp:TextBox runat="server" MaxLength="30" ID="txtEstado" placeholder="Estado"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtNumero" placeholder="Numero"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtBairro" placeholder="Bairro"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtRua" placeholder="Rua"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtEmail" placeholder="Email"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCep" placeholder="Cep"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCpf" placeholder="Cpf"></asp:TextBox>
+                 <asp:RadioButtonList ID="rdlSexo" runat="server">
+                     <asp:ListItem>Masculino</asp:ListItem>
+                     <asp:ListItem>Feminino</asp:ListItem>
+                 </asp:RadioButtonList>
+                 <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" OnClick="btnCadastrar_Click" />
+                 <asp:SqlDataSource ID="sqlCadastrar" runat="server" ConnectionString="<%$ ConnectionStrings:escondidinhoConnectionString %>" InsertCommand="INSERT INTO clientes(nome_cli, nome2_cli, login_cli, senha_cli, end_cli, num_cli, bairro_cli, cidade_cli, uf_cli, cep_cli, email_cli, cpf_cli, dtnasc_cli, sex_cli, celular_cli) VALUES (@NOME, @NOME2, @LOGIN, @SENHA, @RUA, @NUM, @BAIRRO, @CIDADE, @ESTADO, @CEP, @EMAIL, @CPF, @DTNASC, @SEX, @CELULAR)" ProviderName="<%$ ConnectionStrings:escondidinhoConnectionString.ProviderName %>" SelectCommand="SELECT * FROM clientes">
+                     <InsertParameters>
+                         <asp:ControlParameter ControlID="txtpNome" Name="Nome" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtsNome" Name="Nome2" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtLogin" Name="Login" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtSenha" Name="Senha" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtRua" Name="Rua" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtNumero" Name="Num" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtBairro" Name="Bairro" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtCidade" Name="Cidade" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtEstado" Name="Estado" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtCep" Name="Cep" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtEmail" Name="Email" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtCpf" Name="Cpf" PropertyName="Text" />
+                         <asp:Parameter Name="Dtnasc" />
+                         <asp:ControlParameter ControlID="rdlSexo" Name="Sex" PropertyName="SelectedValue" />
+                         <asp:ControlParameter ControlID="txtCelular" Name="Celular" PropertyName="Text" />
+                     </InsertParameters>
+                 </asp:SqlDataSource>
              </form>
          </div>
     </div>
