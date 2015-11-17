@@ -1,4 +1,5 @@
 ﻿@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 body
 {
@@ -425,7 +426,7 @@ main
 
 /**********************MenuBar Genérica********************************/
 .menubar_notMain {
-    position: absolute;
+    position: relative;
     top:0;
     left:0;
     height:60px;
@@ -448,5 +449,77 @@ main
     color:white;
 }
 
-/*============Tela Cadastro Fisica===========================================*/
+/*============Tela Cadastro===========================================*/
+.HeaderCadastro h1{
+    font-family:'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:40px;
+    font-variant:normal;
+}
+
+.HeaderCadastro p {
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
+    font-size:18px;
+    font-variant:normal;
+}
+
+
+
+
+.fis_jud{
+    height:400px;
+    width:100%;
+    background-color:white;
+
+    border-radius:1%;
+}
+
+.fis_jud input{
+    height:400px;
+    width:49%;
+    margin:3px;
+
+    font-family:'Open Sans' ,sans-serif;
+    font-weight:300;
+    font-size:50px;
+
+    background-color:white;
+    
+    border:solid 4px #25c75f;
+
+    border-radius:1.2%;
+}
+
+.fis_jud input:hover{
+    background-color:#25c75f;
+    color:white; 
+    border:solid 4px white;
+    border-radius:1.2%;
+}
+
+.fis_jud input:active{
+    color:white;
+    background-color:#1fa850;
+    border:solid 4px white;
+    border-radius:1.2%;
+}
+.fis_jud input:focus{
+    outline:none;
+}
+
+
+/*======BIG NEW FOTTER=====================*/
+.fotter{
+    position:absolute;
+    bottom:0%;
+    left:0;
+    right:0;
+    background-color:#46585c;
+}
+
+.fotter p {
+  text-align:center;
+}
+/*=======NO MORE BIG NEW FOTTER============*/
 
