@@ -1,4 +1,5 @@
 /*-------ADMIN STYL MADE BY CAIOBEP------------*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 body{
     background-color:#2b4969
 }
@@ -23,7 +24,13 @@ body{
     margin:1px;
     margin-left:65px;
     margin-right:0;
+    margin-top:0px;
     background-color:#292e34;
+
+    color:white;
+
+    font-family:'Open Sans', sans-serif;
+    font-weight:300;
     
 }
 
@@ -36,7 +43,7 @@ body{
 }
 
 .appBar input {
-    background-color: limegreen;
+    background-color: white;;
     width:200px;
     height:200px;
 
@@ -63,3 +70,66 @@ body{
 .appBar input:focus{
     outline:none;
 }
+
+#Clientes{
+    background-image:url(../../../images/pessoa.png);
+    background-size:cover;
+
+    background-color:#c6d135;
+}
+
+#Funcionarios{
+    background-image:url(../../../images/trabalhador.png);
+    background-size:cover;
+
+    background-color:#c6d135;
+}
+
+#Produtos{
+    background-image:url(../../../images/produto.png);
+    background-size:cover;
+
+    background-color:#c6d135;
+}
+
+#Estatisticas{
+    background-image:url(../../../images/grafico.png);
+    background-size:cover;
+
+    background-color:#c6d135;
+}
+
+#Clientes:hover{
+    background-color:#edff00;
+}
+
+#Funcionarios:hover{
+    background-color:#edff00;
+}
+
+#Produtos:hover{
+    background-color:#edff00;
+}
+
+#Estatisticas:hover{
+    background-color:#edff00;
+}
+
+
+#Clientes:active{
+    background-color:#afca26;
+}
+
+#Funcionarios:active{
+    background-color:#afca26;
+}
+
+#Produtos:active{
+    background-color:#afca26;
+}
+
+#Estatisticas:active{
+    background-color:#afca26;
+}
+
+

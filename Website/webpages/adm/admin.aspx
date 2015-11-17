@@ -12,11 +12,13 @@
         
     </div>
     <div class="headerImage">
-
+        <p>Bem Vindo!</p>
+        <p>Este é o Painel do Administrador</p>
+        <p>Fique a vontade para desfrutar de todos os nossos recursos!</p>
     </div>
     <div class="appBar">
        <input type="button" id="Clientes"/>
-       <input type="button" id="Funcionarios" />
+       <input type="button" id="Funcionarios" />  
        <input type="button" id ="Produtos" />
        <input type="button" id="Estatisticas" />
     </div>
