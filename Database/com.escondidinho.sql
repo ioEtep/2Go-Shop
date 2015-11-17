@@ -45,14 +45,10 @@ constraint sex_cli_chk check(sex_cli ('F','M'))
 
 create table Login
 (
-id_log int not null auto_increment,
-id_emp int not null,
-id_cli int not null,
+id_log int auto_increment,
 nome_log varchar(30) not null,
 senha_log varchar(15) not null,
-primary key(id_log),
-foreign key (id_emp) references empresa(id_emp),
-foreign key (id_cli) references clientes(id_cli)
+primary key(id_log)
 );
 
 

@@ -38,10 +38,11 @@
            <label>Entrar</label>
          </br>
            <asp:Textbox ID="inputlogin" placeholder="Login" runat="server"></asp:Textbox>
+             <asp:Label ID="lblErro" runat="server"></asp:Label>
          </br>
            <asp:Textbox id="inputPassword" placeholder="Senha" runat="server" TextMode="password" ></asp:Textbox>
          </br>
-           <asp:button id="btnlogin" runat="server" text="Entrar" />
+           <asp:button id="btnlogin" runat="server" text="Entrar" OnClick="btnlogin_Click" />
          </br>
            <asp:Button id="btncadastro" runat="server" Text="Cadastre-se" PostBackUrl="~/Cadastro.aspx"/>
          </form>
@@ -55,5 +56,11 @@
         <p>Made by <a id="fotter_ioetep" target="_tab" href ="https://github.com/ioEtep">io.Etep</a></p>
       </div>
    </main>
+    <asp:SqlDataSource ID="sqlLogin" runat="server" ConnectionString="<%$ ConnectionStrings:escondidinhoConnectionString4 %>" ProviderName="<%$ ConnectionStrings:escondidinhoConnectionString4.ProviderName %>" SelectCommand="SELECT id_log, nome_log, senha_log FROM login WHERE (nome_log = @LOGIN) AND (senha_log = @SENHA)">
+        <SelectParameters>
+            <asp:ControlParameter ControlID="inputlogin" Name="Login" PropertyName="Text" />
+            <asp:ControlParameter ControlID="inputPassword" Name="Senha" PropertyName="Text" />
+        </SelectParameters>
+    </asp:SqlDataSource>
 </body>
 </html>
