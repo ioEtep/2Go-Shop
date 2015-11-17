@@ -17,8 +17,8 @@ public partial class webpages_Cadastro_Cadastro : System.Web.UI.Page
 
         String dataCorreta = dt.ToString("yyyy/MM/dd");
 
-        sqlCadastrar.InsertParameters["Dtnasc"].DefaultValue = dataCorreta;
+        sqlCliente.InsertParameters["Dtnasc"].DefaultValue = dataCorreta;
 
-        sqlCadastrar.Insert();
+        sqlCliente.Insert();
     }
 }

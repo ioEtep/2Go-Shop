@@ -67,7 +67,7 @@
                      <asp:ListItem>Feminino</asp:ListItem>
                  </asp:RadioButtonList>
                  <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" OnClick="btnCadastrar_Click" />
-                 <asp:SqlDataSource ID="sqlCadastrar" runat="server" ConnectionString="<%$ ConnectionStrings:escondidinhoConnectionString %>" InsertCommand="INSERT INTO clientes(nome_cli, nome2_cli, login_cli, senha_cli, end_cli, num_cli, bairro_cli, cidade_cli, uf_cli, cep_cli, email_cli, cpf_cli, dtnasc_cli, sex_cli, celular_cli) VALUES (@NOME, @NOME2, @LOGIN, @SENHA, @RUA, @NUM, @BAIRRO, @CIDADE, @ESTADO, @CEP, @EMAIL, @CPF, @DTNASC, @SEX, @CELULAR)" ProviderName="<%$ ConnectionStrings:escondidinhoConnectionString.ProviderName %>" SelectCommand="SELECT * FROM clientes">
+                 <asp:SqlDataSource ID="sqlCliente" runat="server" ConnectionString="<%$ ConnectionStrings:escondidinhoConnectionString %>" InsertCommand="INSERT INTO clientes(nome_cli, nome2_cli, login_cli, senha_cli, end_cli, num_cli, bairro_cli, cidade_cli, uf_cli, cep_cli, email_cli, cpf_cli, dtnasc_cli, sex_cli, celular_cli) VALUES (@NOME, @NOME2, @LOGIN, @SENHA, @RUA, @NUM, @BAIRRO, @CIDADE, @ESTADO, @CEP, @EMAIL, @CPF, @DTNASC, @SEX, @CELULAR)" ProviderName="<%$ ConnectionStrings:escondidinhoConnectionString.ProviderName %>" SelectCommand="SELECT * FROM clientes">
                      <InsertParameters>
                          <asp:ControlParameter ControlID="txtpNome" Name="Nome" PropertyName="Text" />
                          <asp:ControlParameter ControlID="txtsNome" Name="Nome2" PropertyName="Text" />
