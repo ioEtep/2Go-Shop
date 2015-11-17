@@ -623,3 +623,7 @@ main
 .cadJud input[type=button]{
     background-color:white;
 }
+
+.validators{
+    display:none;
+}
