@@ -37,18 +37,46 @@
        <h1>Bem-Vindo</h1>
        <p>Para configurar sua conta precisamos de algumas informações:</p>
     </div>
+<<<<<<< HEAD
     <div class="cadFis">
         <div class="Fis">
         <div class="formCadastro-Fis">
              <form class="frmFisica" runat="server">
+=======
+    <div class="fis_jud">
+        <div class="fis_jud">
+        <div class="formCadastro-Jud">
+             <form class="frmJuridica" runat="server">
+>>>>>>> origin/master
                  <asp:TextBox runat="server" MaxLength="30" ID="txtLogin" placeholder="Login"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtLogin" ErrorMessage="Preencha seu Login!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtSenha" placeholder="Senha"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtSenha" ErrorMessage="Preencha sua Senha!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtNome" placeholder="Nome da Empresa"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtNome" ErrorMessage="Preencha o nome de sua empresa!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtRNome" placeholder="Nome do Representante"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="txtRNome" ErrorMessage="Preencha o nome do representante!"></asp:RequiredFieldValidator>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtEmail" placeholder="Email"></asp:TextBox>
-                 <asp:TextBox runat="server" MaxLength="20" ID="txtDataNas" placeholder="Data de Nascimento"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtEmail" ErrorMessage="Preencha o eMail da empresa!"></asp:RequiredFieldValidator>
+                 <asp:TextBox runat="server" MaxLength="20" ID="txtEstado" placeholder="Estado"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCidade" placeholder="Cidade"></asp:TextBox>
                  <asp:TextBox runat="server" MaxLength="30" ID="txtCnpj" placeholder="Cnpj"></asp:TextBox>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtCnpj" ErrorMessage="Preencha o Cnpj!"></asp:RequiredFieldValidator>
+                 <br />
+                 <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" />
+                 <asp:SqlDataSource ID="SqlEmpresa" runat="server" ConnectionString="<%$ ConnectionStrings:escondidinhoConnectionString2 %>" InsertCommand="INSERT INTO empresa(nome_emp, nomeR_emp, login_emp, senha_emp, cidade_emp, uf_emp, email_emp, cnpj_emp) VALUES (@Nome, @NomeR, @Login, @Senha, @Cidade, @Estado, @Email, @Cnpj)" ProviderName="<%$ ConnectionStrings:escondidinhoConnectionString2.ProviderName %>" SelectCommand="SELECT * FROM [empresa]">
+                     <InsertParameters>
+                         <asp:ControlParameter ControlID="txtNome" Name="Nome" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtRNome" Name="NomeR" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtLogin" Name="Login" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtSenha" Name="Senha" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtCidade" Name="Cidade" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtEstado" Name="Estado" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtEmail" Name="Email" PropertyName="Text" />
+                         <asp:ControlParameter ControlID="txtCnpj" Name="Cnpj" PropertyName="Text" />
+                     </InsertParameters>
+                 </asp:SqlDataSource>
+                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
              </form>
          </div>
     </div>
